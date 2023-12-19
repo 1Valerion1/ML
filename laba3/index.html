@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Прогнозирование качества вина</title>
+</head>
+<body>
+<h2>Прогнозирование количество аренд велосипедов в сутки в разные сезоны</h2>
+
+<form action="/predict" method="post">
+
+<label for="instant">Номер записи пользователя:</label><br>
+<input type="text" id="instant" name="instant"><br>
+
+<label for="mnth">Месяц(1-12):</label><br>
+<input type="text" id="mnth" name="mnth"><br>
+
+<label for="registered">Количество зарегистрированных:</label><br>
+<input type="text" id="registered" name="registered"><br>
+
+<label for="cnt">Общее количество арендованных велосипедов:</label><br>
+<input type="text" id="cnt" name="cnt"><br>
+
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
